@@ -8,8 +8,64 @@
     </head>
 
     <body>
-      <h1>Hello HTML!</h1>
+      <header class="header">
+        <nav class="header__top-nav">
+            <div class="header__top-nav-logo">
+                <img width="196" src="/img/logotype.svg" alt="logo">
+            </div>
+            <div class="header__top-nav-menu">
+                <a href="#">About us</a>
+                <a href="#">Types of Honey</a>
+                <a href="#">Store</a>
+                <a href="#">Testimonials</a>
+                <a href="#">Contact Us</a>
+            </div>
+            <div class="header__top-nav-phone">
+                <span class="header__top-nav-phone-call-us">CALL US</span> +380734171082
+            </div>
+        </nav>
+        <div class="header__banner">
+            <button>Buy Honey</button>
+        </div>
+      </header>
+      <main>
+          <div class="car-show">
+              <article class="car-show__card">
+                  <img width="64" src="/img/icon_1.svg" alt="icon_1">
+                  <h3>Beekeeping Classes</h3>
+                <p>Feel free to book excursions and workshops at our swaths.</p>
+                <a href="#">Learn more</a>
+              </article>
+          </div>
 
+          <div class="product-tabs">
+              <div class="tab-header">
+
+              </div>
+              <div class="tab-content">
+                  <img width="200" src="/img/honey.jpg" alt="honey">
+                <p>Type of honey</p>
+                <h3>200</h3>
+                <button>Buy now</button>
+              </div>
+
+          </div>
+      </main>
+      <footer>
+            <div class="contacts-info">
+            <p class="subheader">contacts</p>
+            <h2 class="contacts">
+            Contast us anytime!
+        </h2>
+    </div>
+    <form action="https://formspree.io/f/xayvwzar" method="post">
+        <input name="username" type="text" placeholder="Enter your full name*" required>
+        <input name="phone-num" type="text" placeholder="Enter your full number*" required>
+        <input name="email" type="email" placeholder="Enter your e-mail*" required>
+        <textarea name="message" id="" cols="30" rows="10"></textarea>
+        <button>Request a quote</button>
+    </form>
+      </footer>
     </body>
 
 </html>
